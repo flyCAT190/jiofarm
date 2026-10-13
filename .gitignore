@@ -1,0 +1,50 @@
+# Environment variables & secrets
+.env
+*.pem
+*.key
+
+# Private panels
+panels.txt
+probed_live.txt
+panels/
+
+# Runtime state & tracking
+sent_links.txt
+claimed_nums.txt
+locked_nums.json
+locked_nums_fresh.json
+pending_tg.txt
+already_active_nums.txt
+reactivated_links.txt
+tg_seen.txt
+gemini_activation_links.txt
+*.tsv
+
+# Logs
+*.log
+*.log.*
+
+# Heavy candidate dumps
+cands.txt
+all_local_cands.txt
+probe_raw.txt
+batch_5k.txt
+
+# Backups & temp files
+*.bak*
+*.pre*
+*.done
+*.tmp
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
